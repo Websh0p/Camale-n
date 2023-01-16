@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#galery img {
+    opacity: 0.5;
+     
+}
+
+#galery img:hover {
+    opacity: 1.0;
+    filter: drop-shadow(5px 5px 10px #000);
+    -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+    animation: heartbeat 1.5s ease-in-out infinite both;
+}
+
+.upp .five-section  {
+    background-image: url(/img/main-5.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
